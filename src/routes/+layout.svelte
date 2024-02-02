@@ -21,6 +21,8 @@
   
   onMount(() => {
 	createLineMenu();
+	if($langStore=="en") goto('/en');
+	else goto('/fr');
   });
 
 
