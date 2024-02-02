@@ -22,9 +22,9 @@ let projectBox, BoxW, BoxH;
 
 
 
-    <div class="flex flex-col justify-center items-cente mt-8 s-688:mx-10 xxs:gap-1 xxs:mx-15 xxs:mt-4">
-        <div>
-            <div class="flex justify-center items-center gap-4 p-2">
+    <div class="flex flex-col justify-start items-cente mt-6 s-688:mx-10 xxs:gap-1 xxs:mx-15 xxs:mt-4">
+    
+            <div class="flex justify-center items-center gap-4 p-2 mb-4">
                 <div class="relative w-1/2 s-688:w-full" id="container-project1">
                     <div class="flex">
                         <BulletPoint idName={"project1"}/>
@@ -42,11 +42,10 @@ let projectBox, BoxW, BoxH;
                 </div>
             </div>
             
-        </div>
 
 
-        <div class="mt-14">
-            <div class="flex justify-center items-center gap-4 p-2">
+        
+            <div class="flex justify-center items-center gap-4 p-2 mb-11">
                 <div class="relative w-1/2 s-688:w-full" id="container-project2">
                     <div class="flex">
                         <BulletPoint idName={"project2"}/>
@@ -63,11 +62,11 @@ let projectBox, BoxW, BoxH;
                 </div>
             </div>
             
-        </div>
+        
       
  
 
-        <div class="mt-16">
+       
             <div class="flex justify-center items-center gap-4 p-2">
                 <div class="relative w-1/2 s-688:w-full" id="container-project3">
                     <div class="flex">
@@ -85,7 +84,7 @@ let projectBox, BoxW, BoxH;
                 </div>
             </div>
             
-        </div>
+        
         <div  class="h-full flex flex-col justify-center items-center s-688:w-full mt-12 xxs:mt-14 text-right">
             <span class="text-green-700 text-lg">No pressure</span>
             <Buttons buttonwidth={280} idName={"buttonAnchor2"} buttonName={"But here you can get my resume"}/>

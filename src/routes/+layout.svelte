@@ -21,8 +21,9 @@
   
   onMount(() => {
 	createLineMenu();
-	if($langStore=="en") goto('/en');
-	else goto('/fr');
+	console.log($page.url)
+	if($page.url.pathname=='/'){if($langStore=="en") goto('/en');
+	else goto('/fr');}
   });
 
 
