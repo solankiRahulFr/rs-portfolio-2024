@@ -59,7 +59,7 @@
     </div>
     <div class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xxs:mt-10">
         <div class="xxs:flex xxs:justify-start xxs:items-start xxs:gap-5">
-            <h1 class="h3 mb-5 text-3xl xs:text-lg xxs:text-sm">Languages</h1>
+            <h1 class="h3 mb-8 text-3xl xs:text-lg xxs:text-sm">Languages</h1>
             <div class="relative w-full" id="languages">
                 <h1 class="h3 flex gap-1 text-xl justify-start items-start xs:text-sm xxs:text-xs">English <CircleStar idName={"startE"} stars={[1, 1, 1, 1, 1]}/></h1>
                 <h1 class="h3 flex gap-1 text-red-700 justify-start items-start text-xl xs:text-sm xxs:text-xs">French<CircleStar idName={"startF"} stars={[1, 1, 0, 0, 0]}/></h1>
@@ -70,7 +70,7 @@
                 
             </div>
         </div>
-        <div class="mt-8 xxs:flex xxs:justify-start xxs:items-start xxs:gap-5 xxs:mt-10">
+        <!-- <div class="mt-8 xxs:flex xxs:justify-start xxs:items-start xxs:gap-5 xxs:mt-10">
             <h1 class="h3 mb-4 text-3xl xs:text-lg xxs:text-sm">Learning...</h1>
             <div class="relative w-full h-full flex flex-col justify-center items-center xxs:flex-row xxs:justify-start xxs:items-start xxs:gap-5" id="learning">
                 <h1 class="h3 text-xl xs:text-sm xxs:text-xs"><span class="text-green-700">French</span></h1>
@@ -81,7 +81,7 @@
                 {/if}
                 
             </div>
-        </div>
+        </div> -->
         
     </div>
     <div  class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xxs:mt-2">

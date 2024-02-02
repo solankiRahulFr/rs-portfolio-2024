@@ -34,7 +34,7 @@
 <div class="flex justify-center items-center lg:gap-4 xl:mx-0 lg:mt-20 mt-8 gap-2 xxs:gap-2 xs:mx-5 xxs:mx-4 xxs:mt-4 s-688:flex-col s-688:mx-10 xxs:mx-14">
    
     <div class="h-full flex flex-col justify-center items-center lg:w-2/5 xl:w-1/4 s-688:w-11/12 ">
-        <h1 class="h3 mb-4 text-3xl xs:text-lg xxs:text-sm">Skills</h1>
+        <h1 class="h3 mb-4 text-3xl xs:text-lg xxs:text-sm">Compétences</h1>
         <div class="relative w-full h-full flex-col justify-center items-center" id="skills">
             <div class="w-full h-full flex flex-col justify-center items-center">
                 <h1 class="h3 text-xl xs:text-sm xxs:text-xs">HTML, CSS, Scss, Javascript</h1>
@@ -59,7 +59,7 @@
     </div>
     <div class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xxs:mt-10">
         <div class="xxs:flex xxs:justify-start xxs:items-start xxs:gap-5">
-            <h1 class="h3 mb-5 text-3xl xs:text-lg xxs:text-sm">Langages</h1>
+            <h1 class="h3 mb-8 text-3xl xs:text-lg xxs:text-sm">Langages</h1>
             <div class="relative w-full" id="languages">
                 <h1 class="h3 flex gap-1 text-xl justify-start items-start xs:text-sm xxs:text-xs">Anglais <CircleStar idName={"startE"} stars={[1, 1, 1, 1, 1]}/></h1>
                 <h1 class="h3 flex gap-1 text-red-700 justify-start items-start text-xl xs:text-sm xxs:text-xs">Français<CircleStar idName={"startF"} stars={[1, 1, 0, 0, 0]}/></h1>
@@ -70,7 +70,7 @@
                 
             </div>
         </div>
-        <div class="mt-8 xxs:flex xxs:justify-start xxs:items-start xxs:gap-5 xxs:mt-10">
+        <!-- <div class="mt-8 xxs:flex xxs:justify-start xxs:items-start xxs:gap-5 xxs:mt-10">
             <h1 class="h3 mb-4 text-3xl xs:text-lg xxs:text-sm">Apprentissage...</h1>
             <div class="relative w-full h-full flex flex-col justify-center items-center xxs:flex-row xxs:justify-start xxs:items-start xxs:gap-5" id="learning">
                 <h1 class="h3 text-xl xs:text-sm xxs:text-xs"><span class="text-green-700">Français</span></h1>
@@ -81,7 +81,7 @@
                 {/if}
                 
             </div>
-        </div>
+        </div> -->
         
     </div>
     <div  class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xxs:mt-2">

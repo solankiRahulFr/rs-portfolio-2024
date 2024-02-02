@@ -38,7 +38,10 @@
 		fr: ['À propos', 'Compétences', 'Éducation', 'Expérience', 'Projets']
 	};
 
-	const handleLangChange = (lang) => {
+	let isEnglish = true
+	const handleLangChange = () => {
+		isEnglish = !isEnglish;
+		let lang = isEnglish? "en":"fr";
 		langStore.set(lang);
 		if (!$page.url.href.includes(`/${lang}`)) {
 			if ($page.url.pathname == '/en') goto('/fr');
@@ -92,12 +95,13 @@
 	</div>
 
 	<div class="relative">
-		<p class="lang w-9 text-lg lg:text-xl md:text-lg sm:text-lg xs:text-lg">
-			<button class:active={$langStore == 'en'} on:click={() => handleLangChange('en')}
+		<p class="lang w-9 text-xl lg:text-xl md:text-xl sm:text-lg xs:text-lg">
+			<!-- <button class:active={$langStore == 'en'} on:click={() => handleLangChange('en')}
 				>en </button
 			>/<button class:active={$langStore == 'fr'} on:click={() => handleLangChange('fr')}
 				> fr</button
-			>
+			> -->
+			<button on:click={handleLangChange}><span class={$langStore == 'en'?"text-red-700 hover:scale-105":"hover:scale-105"}>en</span>/<span class={$langStore == 'fr'?"text-red-700 hover:scale-105":"hover:scale-105"}>fr</span></button>
 		</p>
 	</div>
   
@@ -128,7 +132,7 @@
 		cursor: pointer;
 		transition: 0.2s ease-in-out;
 	}
-	.lang button:hover {
+	.lang button:hover{
 		transform: scale(1.05);
 		transition: 0.2s ease-in-out;
 	}

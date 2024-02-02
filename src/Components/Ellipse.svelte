@@ -9,10 +9,10 @@
   onMount(() => {
     const svgElement = document.getElementById(idName);
     const rc = rough.svg(svgElement);
-    const line = rc.ellipse(boxwidth/2+30, boxheight/2+20, boxwidth+45, boxheight+25, {stroke:"#f02324", strokeWidth:3.5, bowing:2.5});
+    const line = rc.ellipse(boxwidth/2+38, boxheight/2+28, boxwidth+60, boxheight+40, {stroke:"#f02324", strokeWidth:3.5, bowing:2.5});
     svgElement.appendChild(line);
   });
 </script>
 
 
-<svg id={idName} style:width={boxwidth+60} style:height={boxheight+40} class="absolute top-[-28px] left-[-35px] z-[-1]"></svg>
+<svg id={idName} style:width={boxwidth+80} style:height={boxheight+60} class="absolute top-[-32px] left-[-45px] z-[-1]"></svg>
