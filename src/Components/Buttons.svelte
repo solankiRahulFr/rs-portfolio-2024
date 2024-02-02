@@ -1,8 +1,10 @@
 <script>
 	import { onMount } from "svelte";
     import rough from 'roughjs';
-
-
+    import { langStore } from '../store/store';
+    import EnglishCV from "../images/Resume_2023_AI_English.pdf";
+    import FrenchCV from "../images/Resume_2023_AI_French.pdf";
+  
     export let buttonName="Want my resume ?";
     export let idName="buttonAnchor";
     export let buttonwidth=100;
@@ -18,7 +20,7 @@
 </script>
 
 <div class={`h-[${btnhg}px] w-[${buttonwidth}px]`}>
-    <a id={idName} href="../images/Resume_2023_AI_English.pdf" class="mainButton text-wrap w-full relative pl-2 text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xxs:text-sm z-1" target="_blank" download>{buttonName}<svg id="rough-button" style:width={buttonwidth} style:height={btnhg+10} class="absolute top-0 z-[-1]"></svg></a>
+    <a id={idName} href={$langStore=="en"?EnglishCV:FrenchCV} class="mainButton text-wrap w-full relative pl-2 text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xxs:text-sm z-1" target="_blank" download={"Rahul_solanki_CV.pdf"}>{buttonName}<svg id="rough-button" style:width={buttonwidth} style:height={btnhg+10} class="absolute top-0 z-[-1]"></svg></a>
 </div>
 
 
