@@ -31,7 +31,7 @@
         else if (windowWidth<365) {sizeBracket1 = 90; sizeBracket2=50}
 </script>
 
-<div class="flex justify-center items-center lg:gap-4 xl:mx-0 lg:mt-20 mt-8 gap-2 xxs:gap-2 xs:mx-5 xxs:mx-4 xxs:mt-4 s-688:flex-col s-688:mx-10 xxs:mx-14">
+<div class="flex justify-center items-center lg:gap-4 xl:mx-0 lg:mt-20 mt-2 gap-2 xxs:gap-2 xs:mx-5 xxs:mx-4 xxs:mt-4 s-688:flex-col s-688:mx-10 xxs:mx-14">
    
     <div class="h-full flex flex-col justify-center items-center lg:w-2/5 xl:w-1/4 s-688:w-11/12 ">
         <h1 class="h3 mb-4 text-3xl xs:text-lg xxs:text-sm">Skills</h1>
