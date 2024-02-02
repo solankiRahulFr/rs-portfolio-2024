@@ -5,7 +5,7 @@
 
 <div class="flex-col mx-8 mt-8 gap-4 xxs:gap-1 xxs:mx-4 xxs:mt-4">
     <div class="flex gap-8">
-        <div class="w-1/4 xs:float-left">
+        <div class="w-1/5 xs:float-left">
             <img src={LogoName} alt="company Logo">
         </div>
         <div class="w-2/3 flex-col">
