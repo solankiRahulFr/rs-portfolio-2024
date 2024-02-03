@@ -74,7 +74,7 @@
 	</div>
 </div>
 
-<div class="w-full flex justify-between items-center px-8 mt-5 xs:px-6 xs:gap-4">
+<div class="w-full flex justify-between items-center px-8 mt-5 xs:px-6 xs:gap-4 2xl:px-10">
 	<div>
 		<a href={`/${$langStore}`}><img src={logo} alt="logo" class="w-11 saturate-200 drop-shadow-lg xs:w-10"/></a>
     <!-- <a href={`/${$langStore}`}><Logo/></a> -->
@@ -82,13 +82,13 @@
 	<div class="menu relative flex justify-center items-center gap-8 sm:gap-4 xs:gap-2 sm:flex-wrap xs:flex-wrap xs:mt-2 ">
 		<a
 			href={langRoute[$langStore][0]}
-			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1"
+			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1 2xl:text-3xl"
 			class:active={$page.url.href.includes(langRoute[$langStore][0])}
 			>{langMenuName[$langStore][0]} <Encircle /> <AboutLine dpath={'M5 11 Q 60 7 70 6'} /></a
 		>
 		<a
 			href={langRoute[$langStore][1]}
-			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1"
+			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1 2xl:text-3xl"
 			class:active={$page.url.href.includes(langRoute[$langStore][1])}
 			>{langMenuName[$langStore][1]} <Encircle /> <AboutLine dpath={$langStore=="en"?'M5 6 Q 22 8 56 6':'M5 6 Q 22 8 100 6'} /></a
 		>
@@ -106,15 +106,15 @@
 		> -->
 		<a
 			href={langRoute[$langStore][4]}
-			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1"
+			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1 2xl:text-3xl"
 			class:active={$page.url.href.includes(langRoute[$langStore][4])}
 			>{langMenuName[$langStore][4]} <Encircle /> <AboutLine dpath={'M5 9 Q 27 6 92 6'} /></a
 		>
     <svg id="rough-svg" class="w-full my-2 h-1 absolute bottom-[-20px]"></svg>
 	</div>
 
-	<div class="relative">
-		<p class="lang w-9 text-xl lg:text-xl md:text-xl sm:text-lg xs:text-lg">
+	<div>
+		<p class="lang w-9 text-xl lg:text-xl md:text-xl sm:text-lg xs:text-lg 2xl:text-3xl">
 			<!-- <button class:active={$langStore == 'en'} on:click={() => handleLangChange('en')}
 				>en </button
 			>/<button class:active={$langStore == 'fr'} on:click={() => handleLangChange('fr')}

@@ -21,7 +21,7 @@
 
 </script>
 
-<div class="flex mx-20 mt-8 gap-4 xxs:gap-1 xs:mx-5 xxs:mx-4 xxs:mt-4">
+<div class="flex mx-20 mt-8 gap-4 xxs:gap-1 xs:mx-5 xxs:mx-4 xxs:mt-4 2xl:justify-around 2xl:mx-52 2xl:mt-24 rotate-1">
     <div class="flex-col w-1/5 xs:w-2/5">
         <div class="w-full">
             <img class="drop-shadow-xl w-full" src={ProfilePicture} alt="profile picture"/>

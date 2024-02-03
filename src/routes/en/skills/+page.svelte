@@ -31,9 +31,9 @@
         else if (windowWidth<365) {sizeBracket1 = 90; sizeBracket2=50}
 </script>
 
-<div class="flex justify-center items-center lg:gap-4 xl:mx-0 lg:mt-20 mt-2 gap-2 xxs:gap-2 xs:mx-5 xxs:mx-4 xxs:mt-4 s-688:flex-col s-688:mx-10 xxs:mx-14">
+<div class="flex justify-center items-center lg:gap-4 xl:mx-0 lg:mt-20 mt-2 gap-2 xxs:gap-2 xs:mx-5 xxs:mx-4 xxs:mt-4 s-688:flex-col s-688:mx-10 xxs:mx-14 2xl:justify-around 2xl:mx-52 2xl:mt-20 rotate-1">
    
-    <div class="h-full flex flex-col justify-center items-center lg:w-2/5 xl:w-2/5 s-688:w-11/12 ">
+    <div class="h-full flex flex-col justify-center items-center lg:w-2/5 xl:w-2/5 s-688:w-11/12">
         <h1 class="h3 mb-4 text-green-700 text-3xl xs:text-lg xxs:text-sm">Skills</h1>
         <div class="relative w-full h-full flex-col justify-center items-center" id="skills">
             <div class="w-full h-full flex flex-col justify-center items-center">
@@ -57,8 +57,8 @@
             
         </div>
     </div>
-    <div class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xxs:mt-10">
-        <div class="xxs:flex xxs:justify-start xxs:items-start xxs:gap-5">
+    <div class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xxs:mt-4 ">
+        <div class="xxs:flex xxs:justify-start xxs:items-start xxs:gap-1 xxs:flex-col">
             <h1 class="h3 mb-8 text-green-700 text-3xl xs:text-lg xxs:text-sm ">Languages</h1>
             <div class="relative w-full" id="languages">
                 <h1 class="h3 flex gap-1 text-xl justify-start items-start xs:text-sm xxs:text-xs">English <CircleStar idName={"startE"} stars={[1, 1, 1, 1, 1]}/></h1>
@@ -84,7 +84,7 @@
         </div> -->
         
     </div>
-    <div  class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xxs:mt-2">
+    <div  class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-4 xs:mt-20 xxs:mt-12">
         <Buttons buttonwidth={280} idName={"buttonAnchor2"} buttonName={"I think you want my resume."}/>
     </div>
 </div>
