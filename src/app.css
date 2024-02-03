@@ -5,7 +5,7 @@
 body{
     font-family: 'Caveat', cursive;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     height: 100vh;
@@ -22,9 +22,10 @@ body{
     border-style: solid;
     border-color: #c1c2c7 #afb0b4 #a0a1a5 #b4b5b9;
     position: fixed;
+    pointer-events: none;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 9999;
     
   }
   #mainFrame #borderWhiteBoard {

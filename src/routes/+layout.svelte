@@ -22,7 +22,7 @@
   onMount(() => {
 	createLineMenu();
 	console.log("-------------", window.innerWidth, window.innerHeight)
-	if($page.url.pathname=='/'){if($langStore=="en") goto('/en');
+	if($page.url.pathname==='/'){if($langStore=="en") goto('/en');
 	else goto('/fr');}
   });
 
@@ -55,6 +55,24 @@
 		createLineMenu()
 	};
 </script>
+
+<div id="mainFrame">
+	<!-- <div id="borderBoard"></div> -->
+	<div id="borderWhiteBoard"></div>
+	<div id="cornerLeftTop">
+		<TopCorner />
+	</div>
+	<div id="cornerRightTop">
+		<TopCorner />
+	</div>
+	<div id="reflectionLine"></div>
+	<div id="cornerLeftBottom">
+		<BottomCorner />
+	</div>
+	<div id="cornerRightBottom">
+		<BottomCorner />
+	</div>
+</div>
 
 <div class="w-full flex justify-between items-center px-8 mt-5 xs:px-6 xs:gap-4">
 	<div>
@@ -108,24 +126,6 @@
   
 </div>
 
-
-<div id="mainFrame">
-	<div id="borderWhiteBoard"></div>
-	<div id="cornerLeftTop">
-		<TopCorner />
-	</div>
-	<div id="cornerRightTop">
-		<TopCorner />
-	</div>
-	<div id="reflectionLine"></div>
-	<div id="cornerLeftBottom">
-		<BottomCorner />
-	</div>
-	<div id="cornerRightBottom">
-		<BottomCorner />
-	</div>
-</div>
-
 <slot />
 
 <style>
@@ -137,7 +137,7 @@
 		transform: scale(1.05);
 		transition: 0.2s ease-in-out;
 	}
-	.lang button.active {
+	/* .lang button.active {
 		color: #f02324;
-	}
+	} */
 </style>

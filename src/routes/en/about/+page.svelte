@@ -37,8 +37,8 @@
 
     </div>
     <div class="flex-col w-4/5 mx-6 mt-10 xs:mx-0 xs:w-3/5">
-        <h1 class="intro h3 text-3xl xs:text-lg xxs:text-sm">I am Rahul Solanki</h1>
-        <h1 class="intro h3 text-3xl xs:text-lg xxs:text-sm">I have 5 years of experience, from <span class="text-green-700">Mechanical Design Engineer</span> to <span class="text-green-700">Full Stack Development</span> to <span class="text-red-700">Artificial intelligence Engineer</span>.</h1>
+        <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">I am Rahul Solanki</h1>
+        <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">I have 5 years of experience, from <span class="text-green-700">Mechanical Design Engineer</span> to <span class="text-green-700">Full Stack Development</span> to <span class="text-red-700">Artificial intelligence Engineer</span>.</h1>
         <div class="flex flex-wrap gap-8 mt-4">
             <div class="h-full flex justify-start items-center">
                 <h1 class="intro text-nowrap h3 text-3xl xs:text-lg xxs:text-sm">I like </h1>
