@@ -37,20 +37,19 @@
         <h1 class="h3 mb-4 text-green-700 text-3xl xs:text-lg xxs:text-sm">Skills</h1>
         <div class="relative w-full h-full flex-col justify-center items-center" id="skills">
             <div class="w-full h-full flex flex-col justify-center items-center">
-                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">HTML, CSS, Scss, Javascript</h1>
-                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Reactjs, VueJs, Angular2+</h1>
-                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Python, PYQT5, FastAPI, Flask, Tensorflow</h1>
+                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Python, PYQT5, FastAPI, Flask</h1>
+                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Tensorflow, Pytorch</h1>
                 <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Data (Analysis) Preprocessing</h1>
                 <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Machine Learning and Deep Learning</h1>
                 <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Natural Language Processing and Computer Vision</h1>
+                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Generative adversarial network</h1>
                 <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">AI Model Deployment and Integration</h1>
+                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">HTML, CSS, Scss, Javascript</h1>
+                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Sveltekit, Reactjs, VueJs, Angular2+</h1>
+                <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">MongoDB, Nodejs, React native</h1>
                 <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Photoshop, Figma</h1>
             </div>
-          <div class="w-full h-full flex flex-col justify-center items-center">
-              <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Pytorch</h1>
-              <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Sveltekit, MongoDB, React native</h1>
-              <h1 class="h3 xl:text-3xl text-xl xs:text-sm xxs:text-xs">Generative adversarial network</h1>
-          </div>
+
             {#if skillBox}
                 <Box boxwidth={skillW} boxheight={skillH} idName={"box-skills"}/>
             {/if}
