@@ -3,7 +3,6 @@
     import GithubLogo from "../../../images/githubLogo.svelte";
     import LinkedinLogo from "../../../images/linkedinLogo.svelte";
     import Buttons from "../../../Components/Buttons.svelte";
-    import Star from "../../../images/star.svelte";
     import Bracket from "../../../images/Bracket.svelte";
 	import { onMount } from "svelte";
 
@@ -21,10 +20,10 @@
 
 </script>
 
-<div class="flex mx-20 mt-8 gap-4 xxs:gap-1 xs:mx-5 xxs:mx-4 xxs:mt-4 2xl:justify-around 2xl:mx-52 2xl:mt-24 rotate-1">
+<div class="flex mx-20 mt-8 gap-4 xxs:gap-1 xs:mx-5 xxs:mx-4 xxs:mt-4 2xl:justify-around 2xl:mx-52 2xl:mt-24 rotate-1 mxs:mt-4">
     <div class="flex-col w-1/5 xs:w-2/5">
         <div class="w-full">
-            <img class="drop-shadow-xl w-full" src={ProfilePicture} alt="profile picture"/>
+            <img class="drop-shadow-xl w-full" src={ProfilePicture} alt=""/>
         </div>
         <div class="flex gap-4 mx-4 my-4 xs:mx-0">
             <a href="https://www.linkedin.com/in/rahulsolanki11292/" class="hover:scale-105" target="_blank" rel="noreferrer"><GithubLogo size={32}/></a>
@@ -38,7 +37,7 @@
     </div>
     <div class="flex-col w-4/5 mx-6 mt-10 xs:mx-0 xs:w-3/5">
         <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">I am Rahul Solanki</h1>
-        <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">I have 5 years of experience, from <span class="text-green-700">Mechanical Design Engineer</span> to <span class="text-green-700">Full Stack Development</span> to <span class="text-red-700">Artificial intelligence Engineer</span>.</h1>
+        <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">I possess a diverse professional background of 5 years, transitioning from <span class="text-green-700">Mechanical Design Engineer</span> to <span class="text-green-700">Full Stack Development</span> and finally, to an <span class="text-red-700">Artificial intelligence Engineer</span>.</h1>
         <div class="flex flex-wrap gap-8 mt-4">
             <div class="h-full flex justify-start items-center">
                 <h1 class="intro text-nowrap h3 text-3xl xs:text-lg xxs:text-sm">I like </h1>
@@ -55,10 +54,10 @@
                 <h1 class="intro text-nowrap h3 text-3xl xs:text-lg xxs:text-sm ">I am </h1>
                 <Bracket size={sizeBracket2} skew={true} />
                 <div class="ml-[-25px]">
-                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">a lot curious</h1>
-                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">little innovative</h1>
-                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">little creative</h1>
-                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">always learning</h1>
+                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">curious</h1>
+                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">innovative</h1>
+                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">creative</h1>
+                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">passionate</h1>
                 </div>
             </div>
         </div>

@@ -74,7 +74,7 @@
 	</div>
 </div>
 
-<div class="w-full flex justify-between items-center px-8 mt-5 xs:px-6 xs:gap-4 2xl:px-10">
+<div class="w-full flex justify-between items-center px-8 mt-5  xs:px-6 xs:gap-4 2xl:px-10">
 	<div>
 		<a href={`/${$langStore}`}><img src={logo} alt="logo" class="w-11 saturate-200 drop-shadow-lg xs:w-10"/></a>
     <!-- <a href={`/${$langStore}`}><Logo/></a> -->
@@ -85,6 +85,12 @@
 			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1 2xl:text-3xl"
 			class:active={$page.url.href.includes(langRoute[$langStore][0])}
 			>{langMenuName[$langStore][0]} <Encircle /> <AboutLine dpath={'M5 11 Q 60 7 70 6'} /></a
+		>
+		<a
+			href={langRoute[$langStore][4]}
+			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1 2xl:text-3xl"
+			class:active={$page.url.href.includes(langRoute[$langStore][4])}
+			>{langMenuName[$langStore][4]} <Encircle /> <AboutLine dpath={'M5 9 Q 27 6 92 6'} /></a
 		>
 		<a
 			href={langRoute[$langStore][1]}
@@ -104,12 +110,7 @@
 			class:active={$page.url.href.includes(langRoute[$langStore][3])}
 			>{langMenuName[$langStore][3]} <Encircle /> <AboutLine dpath={'M5 7 Q 15 6 124 8'} /></a
 		> -->
-		<a
-			href={langRoute[$langStore][4]}
-			class="menuItem text-2xl px-2 lg:text-2xl md:text-xl sm:text-lg xs:text-lg xs:px-1 2xl:text-3xl"
-			class:active={$page.url.href.includes(langRoute[$langStore][4])}
-			>{langMenuName[$langStore][4]} <Encircle /> <AboutLine dpath={'M5 9 Q 27 6 92 6'} /></a
-		>
+		
     <svg id="rough-svg" class="w-full my-2 h-1 absolute bottom-[-20px]"></svg>
 	</div>
 
@@ -120,7 +121,7 @@
 			>/<button class:active={$langStore == 'fr'} on:click={() => handleLangChange('fr')}
 				> fr</button
 			> -->
-			<button on:click={handleLangChange}><span class={$langStore == 'en'?"text-red-700 hover:scale-105":"hover:scale-105"}>en</span>/<span class={$langStore == 'fr'?"text-red-700 hover:scale-105":"hover:scale-105"}>fr</span></button>
+			<button on:click={handleLangChange}><span class={$langStore == 'en'?"text-red-700 hover:scale-105":"hover:scale-105"}>en</span>/<span class={$langStore == 'fr'?"text-red-700 hover:scale-105":"hover:scale-105"}>{"fr".toLowerCase()}</span></button>
 		</p>
 	</div>
   

@@ -28,9 +28,9 @@
                     <div class="relative w-1/2 s-688:w-full" id="container-project1">
                         <div class="flex">
                             <BulletPoint idName={"project1"}/>
-                            <h1 class="2xl:text-4xl project h3 text-green-700 text-xl xs:text-sm xxs:text-xs"><span class="text-red-700">Gesture Drawing: </span>Une application qui permet aux utilisateurs de créer des dessins à l'aide de gestes de la main capturés par vision par ordinateur.</h1>
+                            <h1 class="2xl:text-3xl project h3 text-green-700 text-xl xs:text-sm xxs:text-xs"><span class="text-red-700">Gesture Drawing: </span>Une application qui permet aux utilisateurs de créer des dessins à l'aide de gestes de la main capturés par computer vision.</h1>
                         </div>
-                        <h1 class="2xl:text-4xl ml-4 project h3 text-xl xs:text-sm xxs:text-xs">React, Mediapipe</h1>
+                        <h1 class="2xl:text-3xl ml-4 project h3 text-xl xs:text-sm xxs:text-xs">React, Mediapipe</h1>
                         {#if projectBox}
                         <BoxProjects boxwidth={BoxW} boxheight={BoxH} idName={"box-project1"}/>
                         {/if}
@@ -45,13 +45,13 @@
     
     
     
-                <div class="flex justify-center items-center gap-4 p-2 mb-8">
+                <div class="flex justify-center items-center gap-4 p-2 mb-4">
                     <div class="relative w-1/2 s-688:w-full" id="container-project2">
                         <div class="flex">
                             <BulletPoint idName={"project2"}/>
-                            <h1 class="2xl:text-4xl project h3 text-green-700 text-xl xs:text-sm xxs:text-xs"><span class="text-red-700">Deep Learning Components: </span>Un outil d'interface utilisateur simple pour créer des modèles d'apprentissage profond sans effort.</h1>
+                            <h1 class="2xl:text-3xl project h3 text-green-700 text-xl xs:text-sm xxs:text-xs"><span class="text-red-700">Deep Learning Components: </span>Un outil d'interface utilisateur pour créer des modèles d'apprentissage profond sans effort.</h1>
                         </div>
-                        <h1 class="2xl:text-4xl ml-4 project h3 text-xl xs:text-sm xxs:text-xs">SvelteKit/ flask</h1>
+                        <h1 class="2xl:text-3xl ml-4 project h3 text-xl xs:text-sm xxs:text-xs">SvelteKit/ flask</h1>
                         {#if projectBox}
                         <BoxProjects boxwidth={BoxW} boxheight={BoxH} idName={"box-project2"}/>
                         {/if}
@@ -66,13 +66,13 @@
      
     
  
-                <div class="flex justify-center items-center gap-4 p-2 mb-12 2xl:mb-20">
+                <div class="flex justify-center items-center gap-4 p-2 mb-12 2xl:mb-16">
                     <div class="relative w-1/2 s-688:w-full" id="container-project3">
                         <div class="flex">
                             <BulletPoint idName={"project3"}/>
-                            <h1 class="2xl:text-4xl project h3 text-green-700 text-xl xs:text-sm xxs:text-xs"><span class="text-red-700">Apprenez la grammaire française avec l'anglais: </span></h1>
+                            <h1 class="2xl:text-3xl project h3 text-green-700 text-xl xs:text-sm xxs:text-xs"><span class="text-red-700">French grammar with English: </span>Un document pour apprendre les règles grammaticales de la langue française en anglais</h1>
                         </div>
-                        <h1 class="2xl:text-4xl ml-4 project h3 text-xl xs:text-sm xxs:text-xs">Rust mdbooks</h1>
+                        <h1 class="2xl:text-3xl ml-4 project h3 text-xl xs:text-sm xxs:text-xs">Rust mdbooks</h1>
                         {#if projectBox}
                         <BoxProjects boxwidth={BoxW} boxheight={BoxH} idName={"box-project3"}/>
                         {/if}
@@ -85,8 +85,8 @@
                 
   
             <div  class="h-full flex flex-col justify-center items-center s-688:w-full text-right">
-                <span class="text-green-700 text-lg 2xl:text-2xl">Pas de pression</span>
-                <Buttons buttonwidth={320} idName={"buttonAnchor2"} buttonName={"mais ici vous pouvez obtenir mon CV"}/>
+                <span class="text-green-700 text-lg 2xl:text-2xl">Pas de pression mais</span>
+                <Buttons buttonwidth={320} idName={"buttonAnchor2"} buttonName={"ici vous pouvez obtenir mon CV"}/>
             </div>
         </div>
     

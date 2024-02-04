@@ -1,5 +1,5 @@
 <script>
-	export let size = 24
+	export let size = 28
 	$: sizePx = `${size}px`
 </script>
 <svg id="Layer_1" style:width={sizePx} style:height={sizePx} style="enable-background:new 0 0 52 52;" version="1.1" viewBox="0 0 52 52" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">

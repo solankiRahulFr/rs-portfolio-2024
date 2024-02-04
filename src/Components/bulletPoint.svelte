@@ -21,5 +21,5 @@
 </script>
 
 
-<svg id={`${idName}`} style:width={20} style:height={15} class="mt-1.5 mr-1"></svg>
+<svg id={`${idName}`} style:width={25} style:height={15} class="mt-1.5 mr-1"></svg>
 

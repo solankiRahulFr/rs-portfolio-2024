@@ -9,22 +9,22 @@
             <img src={LogoName} alt="company Logo">
         </div>
         <div class="w-2/3 flex-col">
-            <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">I am an <span class="text-green-700">Auto entrepreneur</span> with experience in <span class="text-green-700">product design and development</span>. Enthusiastic about contributing to making things better. I am excited to bring <span class="text-green-700">AI</span> to all parts of business and human lives. I have an individual enterprise in the name of <span class="text-red-700">RS Technologies.</span></h3>
+            <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">I am a self-employed professional with a background in <span class="text-green-700">product design and development</span>. I am enthusiastic and excited to integrate <span class="text-green-700">AI</span> in various aspects of business and human experiences. I operate under the individual enterprise named <span class="text-red-700">RS Technologies</span>.</h3>
     
-            <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
-                <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">SIREN: <span class="text-green-700">983224650</span></h3>
-            </div>
-            <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
-                <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">SIRET: <span class="text-green-700">98322465000017</span></h3>
-            </div>
             <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
                 <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm"><a href="mailto:solankirahul.fr@gmail.com" class="flex justify-center content-center items-center gap-1 hover:scale-105">solankirahul.fr@gmail.com<Mail/></a></h3>
             </div>
             <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
-                <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">+33 07 85 95 88 55</h3>
+                <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">+33 7 85 95 88 55</h3>
             </div>
             <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
-                <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">Rouen, France</h3>
+                <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">France</h3>
+            </div>
+            <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
+                <h3 class="h3 xl:text-3xl 2xl:text-2xl text-xl xs:text-sm xxs:text-sm">SIREN: <span class="text-green-700">983224650</span></h3>
+            </div>
+            <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
+                <h3 class="h3 xl:text-3xl 2xl:text-2xl text-xl xs:text-sm xxs:text-sm">SIRET: <span class="text-green-700">98322465000017</span></h3>
             </div>
         </div>
     </div>

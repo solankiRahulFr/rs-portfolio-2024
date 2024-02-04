@@ -6,7 +6,7 @@ export default {
       screens: { 'xs': { 'max': '640px' },
       's-688': { 'max': '689px'},
       'xxs': { 'max': '321px' },
-      'mxs': { 'max': '370px' } },
+      'mxs': { 'max': '375px' } },
     },
   },
   plugins: [],
