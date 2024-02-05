@@ -38,7 +38,7 @@
     </div>
     <div class="flex-col w-4/5 mx-6 mt-10 xs:mx-0 xs:w-3/5">
         <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">Je m'appelle Rahul Solanki</h1>
-        <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">J'accumule 5 années d'expérience, évoluant de la fonction<span class="text-green-700">d'ngénieur en Conception mécanique</span> à celle de <span class="text-green-700">Développeur full-stack</span>, pour finalement devenir <span class="text-red-700">Ingénieur en Intelligence Artificielle.</span>.</h1>
+        <h1 class="intro 2xl:text-4xl h3 text-3xl xs:text-lg xxs:text-sm">J'accumule 5 années d'expérience, évoluant de la fonction <span class="text-green-700">d'ingénieur en Conception mécanique</span> à celle de <span class="text-green-700">Développeur full-stack</span>, pour finalement devenir <span class="text-red-700">Ingénieur en Intelligence Artificielle</span>.</h1>
         <div class="flex flex-wrap gap-8 mt-4">
             <div class="h-full flex justify-start items-center">
                 <h1 class="intro text-nowrap h3 text-3xl xs:text-lg xxs:text-sm">J'aime </h1>
@@ -46,9 +46,9 @@
                 <div class="ml-[-25px]">
                     <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">apprendre</h1>
                     <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">dessiner</h1>
-                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">les math</h1>
-                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">les science</h1>
-                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">les technologie</h1>
+                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">les maths</h1>
+                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">les sciences</h1>
+                    <h1 class="h3 text-3xl xs:text-lg xxs:text-sm mxs:text-sm">les technologies</h1>
                 </div>
             </div>
             <div class="h-full flex justify-start items-center">
