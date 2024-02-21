@@ -121,7 +121,7 @@
 			>/<button class:active={$langStore == 'fr'} on:click={() => handleLangChange('fr')}
 				> fr</button
 			> -->
-			<button on:click={handleLangChange}><span class={$langStore == 'en'?"text-red-700 hover:scale-105":"hover:scale-105"}>en</span>/<span class={$langStore == 'fr'?"text-red-700 hover:scale-105":"hover:scale-105"}>{"fr".toLowerCase()}</span></button>
+			<button on:click={handleLangChange} class="flex"><span class={$langStore == 'en'?"text-red-700 hover:scale-105":"hover:scale-105"}>en</span>/<span class={$langStore == 'fr'?"text-red-700 hover:scale-105":"hover:scale-105"}>{"fr".toLowerCase()}</span></button>
 		</p>
 	</div>
   

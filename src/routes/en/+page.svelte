@@ -21,14 +21,14 @@
                 <h3 class="h3 xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">France</h3>
             </div>
             <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
-                <h3 class="h3 xl:text-3xl 2xl:text-2xl text-xl xs:text-sm xxs:text-sm">SIREN: <span class="text-green-700">983224650</span></h3>
+                <h3 class="h3 xl:text-3xl 2xl:text-2xl text-xl xs:text-sm xxs:text-sm cmpnyDetails">SIREN: <span class="text-green-700">983224650</span></h3>
             </div>
             <div class="flex justify-start w-full gap-2 my-4 xs:my-2 xs:gap-0 xxs:my-0 xxs:gap-0">
-                <h3 class="h3 xl:text-3xl 2xl:text-2xl text-xl xs:text-sm xxs:text-sm">SIRET: <span class="text-green-700">98322465000017</span></h3>
+                <h3 class="h3 xl:text-3xl 2xl:text-2xl text-xl xs:text-sm xxs:text-sm cmpnyDetails">SIRET: <span class="text-green-700">98322465000017</span></h3>
             </div>
         </div>
     </div>
-    <div class="w-full justify-center content-center items-center mt-8 ">
+    <div class="w-full justify-center content-center items-center mt-8 requestMain">
         <h3 class="h3 text-center xl:text-3xl 2xl:text-4xl text-2xl xs:text-lg xxs:text-sm">Want to transform your idea to reality? <span class="text-red-700">Send me a mail or call me</span> and we can bring your vision to life.</h3>
     </div>
 </div>

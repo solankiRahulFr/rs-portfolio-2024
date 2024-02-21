@@ -31,7 +31,7 @@
         else if (windowWidth<365) {sizeBracket1 = 90; sizeBracket2=50}
 </script>
 
-<div class="flex justify-center items-center lg:gap-4 xl:mx-0 lg:mt-20 mt-2 gap-2 xxs:gap-2 xs:mx-5 xxs:mx-4 xxs:mt-4 s-688:flex-col s-688:mx-10 xxs:mx-14 2xl:justify-around 2xl:mx-52 2xl:mt-20 rotate-1">
+<div class="flex justify-center items-center lg:gap-4 xl:mx-0 lg:mt-20 mt-2 gap-2 xxs:gap-2 xs:mx-5 xxs:mx-4 xxs:mt-4 s-688:flex-col s-688:mx-10 xxs:mx-14 2xl:justify-around 2xl:mx-52 2xl:mt-20 mainSkillContent">
    
     <div class="h-full flex flex-col justify-center items-center lg:w-2/5 xl:w-2/5 s-688:w-11/12">
         <h1 class="h3 text-green-700 mb-4 text-3xl xs:text-lg xxs:text-sm">Compétences</h1>
@@ -60,9 +60,9 @@
         <div class="xxs:flex xxs:justify-start xxs:items-start xxs:gap-1 xxs:flex-col">
             <h1 class="h3 text-green-700 mb-8 text-3xl xs:text-lg xxs:text-sm">Langues</h1>
             <div class="relative w-full" id="languages">
-                <h1 class="h3 flex gap-1 text-xl justify-start items-start xs:text-sm xxs:text-xs">Anglais <CircleStar idName={"startE"} stars={[1, 1, 1, 1, 1]}/></h1>
-                <h1 class="h3 flex gap-1 text-red-700 justify-start items-start text-xl xs:text-sm xxs:text-xs">Français<CircleStar idName={"startF"} stars={[1, 1, 0, 0, 0]}/></h1>
-                <h1 class="h3 flex gap-1 justify-start items-start text-xl xs:text-sm xxs:text-xs">Hindi<CircleStar idName={"startH"} stars={[1, 1, 1, 1, 1]}/></h1>
+                <h1 class={`h3 flex gap-1 text-xl justify-start items-start xs:text-sm xxs:text-xs ${typeof InstallTrigger !== 'undefined'?"h-7 w-52":""}`}>Anglais <CircleStar idName={"startE"} stars={[1, 1, 1, 1, 1]}/></h1>
+                <h1 class={`h3 flex gap-1 text-xl justify-start items-start xs:text-sm xxs:text-xs ${typeof InstallTrigger !== 'undefined'?"h-7 w-52":""}`}>Français<CircleStar idName={"startF"} stars={[1, 1, 0, 0, 0]}/></h1>
+                <h1 class={`h3 flex gap-1 text-xl justify-start items-start xs:text-sm xxs:text-xs ${typeof InstallTrigger !== 'undefined'?"h-7 w-52":""}`}>Hindi<CircleStar idName={"startH"} stars={[1, 1, 1, 1, 1]}/></h1>
                 {#if languagesBox}
                     <Ellipse boxwidth={langW} boxheight={langH} idName={"box-lang"}/>
                 {/if}
@@ -83,7 +83,7 @@
         </div> -->
         
     </div>
-    <div  class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-6 xs:mt-20 xxs:mt-12">
+    <div  class="h-full flex flex-col justify-center items-center w-1/4 s-688:w-full mt-10 xs:mt-20 xxs:mt-12">
         <Buttons buttonwidth={300} idName={"buttonAnchor2"} buttonName={"Je pense que vous voulez mon CV."}/>
     </div>
 </div>

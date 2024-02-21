@@ -15,4 +15,4 @@
 </script>
 
 
-<svg id={idName} style:width={boxwidth+80} style:height={boxheight+60} class="absolute top-[-32px] left-[-45px] z-[-1]"></svg>
+<svg id={idName} style:width={boxwidth+80} style:height={boxheight+60} style={`height:${boxheight+60}px`} class="absolute top-[-32px] left-[-45px] z-[-1]"></svg>
