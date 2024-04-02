@@ -2,8 +2,8 @@
 	import { onMount } from "svelte";
     import rough from 'roughjs';
     import { langStore } from '../store/store';
-    import EnglishCV from "../images/Resume_2023_AI_English.pdf";
-    import FrenchCV from "../images/Resume_2023_AI_French.pdf";
+    import EnglishCV from "../images/Resume_2024_AI_English.pdf";
+    import FrenchCV from "../images/Resume_2024_AI_French.pdf";
   
     export let buttonName="Want my resume ?";
     export let idName="buttonAnchor";
