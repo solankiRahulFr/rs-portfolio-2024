@@ -27,8 +27,8 @@
             <img class="drop-shadow-xl w-full" src={ProfilePicture} alt=""/>
         </div>
         <div class="flex gap-4 mx-4 my-4 xs:mx-0">
-            <a href="https://www.linkedin.com/in/rahulsolanki11292/" class="hover:scale-105" target="_blank" rel="noreferrer"><GithubLogo size={32}/></a>
-            <a href="https://github.com/solankiRahulFr" class="hover:scale-105" target="_blank" rel="noreferrer"><LinkedinLogo size={32}/></a>
+            <a href="https://github.com/solankiRahulFr" class="hover:scale-105" target="_blank" rel="noreferrer"><GithubLogo size={32}/></a>
+            <a href="https://www.linkedin.com/in/rahulsolanki11292/" class="hover:scale-105" target="_blank" rel="noreferrer"><LinkedinLogo size={32}/></a>
             <a href="https://www.kaggle.com/solankirahulfr" target="_blank" class="text-green-700 text-3xl hover:scale-105">k</a>
         </div>
         <div class="mt-8">
